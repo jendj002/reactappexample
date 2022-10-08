@@ -9,11 +9,40 @@
       "UnauthRoleName": "amplify-amplifyfa421c8962de4-staging-105540-unauthRole",
       "StackName": "amplify-amplifyfa421c8962de4-staging-105540",
       "StackId": "arn:aws:cloudformation:us-east-1:340264020385:stack/amplify-amplifyfa421c8962de4-staging-105540/c02a7db0-46f7-11ed-b016-12e29ceec6bb",
-      "AmplifyAppId": "d14rqny9z0hvzp"
+      "AmplifyAppId": "d14rqny9z0hvzp",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifyfa421c8962de4-staging-105540-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
-        "reactappexample8405ad00": {}
+        "reactappexample8405ad00": {
+          "googleClientId": "340846142901-f3vuf34ns2vnukcn5d6r6ischvk8as86.apps.googleusercontent.com"
+        }
+      },
+      "function": {
+        "reactappexample8405ad00DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-amplifyfa421c8962de4-staging-105540-deployment",
+          "s3Key": "amplify-builds/reactappexample8405ad00DefineAuthChallenge-715a634531686d767044-build.zip"
+        },
+        "reactappexample8405ad00CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-amplifyfa421c8962de4-staging-105540-deployment",
+          "s3Key": "amplify-builds/reactappexample8405ad00CreateAuthChallenge-63686d44303177787757-build.zip"
+        },
+        "reactappexample8405ad00VerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "aavvddeff",
+          "deploymentBucketName": "amplify-amplifyfa421c8962de4-staging-105540-deployment",
+          "s3Key": "amplify-builds/reactappexample8405ad00VerifyAuthChallengeResponse-417a74774f6c4f365751-build.zip"
+        },
+        "reactappexample8405ad00CustomMessage": {
+          "REDIRECTURL": "https://main.d14rqny9z0hvzp.amplifyapp.com/",
+          "EMAILSUBJECT": "abc",
+          "EMAILMESSAGE": "abc",
+          "deploymentBucketName": "amplify-amplifyfa421c8962de4-staging-105540-deployment",
+          "s3Key": "amplify-builds/reactappexample8405ad00CustomMessage-6b714f72695a654e6343-build.zip"
+        },
+        "AdminQueriesf2de97df": {
+          "deploymentBucketName": "amplify-amplifyfa421c8962de4-staging-105540-deployment",
+          "s3Key": "amplify-builds/AdminQueriesf2de97df-716b715338487a4c6a50-build.zip"
+        }
       }
     }
   }
