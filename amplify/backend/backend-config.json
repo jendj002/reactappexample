@@ -44,7 +44,7 @@
     }
   },
   "storage": {
-    "s32391e11e": {
+    "s321c7b0df": {
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "dependsOn": []

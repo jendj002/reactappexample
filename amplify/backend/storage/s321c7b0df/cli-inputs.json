@@ -1,0 +1,14 @@
+{
+  "resourceName": "s321c7b0df",
+  "policyUUID": "21c7b0df",
+  "bucketName": "reactappexample3ec55ebedb6c4292a8dae25414641676",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
