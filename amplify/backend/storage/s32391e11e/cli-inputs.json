@@ -1,0 +1,12 @@
+{
+  "resourceName": "s32391e11e",
+  "policyUUID": "2391e11e",
+  "bucketName": "reactappexample823b65f6b45242a0959b5ead00e0f0f8",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
